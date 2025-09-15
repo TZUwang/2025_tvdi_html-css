@@ -1,0 +1,7 @@
+@import url(./normalize.css);
+/* 將normalize.css先匯入style.css後index.html再匯入style.css這樣index不須匯入多個檔案 */
+*{
+    margin: 0;
+    padding: 0;
+}
+

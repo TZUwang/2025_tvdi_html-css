@@ -1,0 +1,24 @@
+body{}
+
+
+
+.mid{
+    background-color: yellow ;
+    color: blue ;
+    text-align: justify;
+    padding: 30px 10px;
+}
+.side{
+    background-color: honeydew ;
+    color: black ; 
+    padding: 5px;
+    text-align: center;
+}
+
+.red{color: red}
+.bk{background-color: aquamarine}
+.ls{letter-spacing: 10px}
+
+td>p {
+    color: rgb(205, 9, 245)
+}

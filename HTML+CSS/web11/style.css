@@ -1,0 +1,36 @@
+@charset "utf-8";
+
+body {
+    background-color: rgb(177, 231, 252);
+}
+
+.box {
+    background-image: url(./box.png);
+    width: 300px;
+    height: 600px;
+    margin: 0 auto;
+}
+
+a {
+    display: block;
+    width: 300px;
+    height: 60px;
+    color: rgb(33, 67, 179);
+    font-size: 20px;
+    text-decoration: none;
+    background-image: url(./btn01.png);
+    padding-left: 70px;
+    line-height: 60px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a:hover {
+    color: rgb(160, 5, 5);
+    background-image: url(./btn02.png);
+}
+
+a:active {
+    /* 讓按鈕稍微向下和向右移動 1px，模擬按下的效果 */
+    transform: translate(1px, 1px);
+}

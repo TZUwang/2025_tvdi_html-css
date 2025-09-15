@@ -1,0 +1,24 @@
+body{
+    font-family:Arial ,Helvetica, '微軟正黑體', sans-serif
+}
+
+a{
+    color: rgb(251, 255, 0);
+    text-decoration: none;
+    font-family: 'Times New Roman', '新細明體' , Times ,serif;
+    font-size: 30px;
+}
+
+a:hover{
+    color: rgb(255, 0, 0);
+    text-decoration: none;
+}
+
+a.aaa{
+    color: blueviolet;
+}
+
+a.aaa:hover{
+    color: rgb(255, 0, 234);
+    text-decoration: none;
+}
