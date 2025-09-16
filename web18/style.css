@@ -1,0 +1,50 @@
+*{
+	padding:0;
+	margin:0;}
+	
+body{
+	background-color:#E3E1C6;}
+.container{
+	width:1200px;
+	background-color:#FFF;
+	margin:0 auto;}
+
+.header{
+	border-top:#066 20px solid;
+	border-bottom:#066 20px solid;}
+
+.header img{
+	vertical-align:bottom;}
+
+
+.box{
+	display:flex; /*統一將所有對象拉成與高度最高的內容一樣高 */
+	flex-wrap:wrap
+}
+
+.box div{
+	width:calc(100%/3);
+}
+
+.box .b1{
+	background-color: #ffb3b3;
+}
+.box .b2{
+	background-color: #9fe9ff;
+}
+.box .b3{
+	background-color: #f8fa94;
+}
+
+.box .b4{
+	background-color:aquamarine
+}
+
+.box .b5{
+	background-color:rgb(150, 148, 248)
+}
+
+.box .b6{
+	background-color: #ff66de;
+}
+

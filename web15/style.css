@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{}
+
+.header{
+    background-image: url(./banner.jpg);
+        width: 1200px;
+        height: 400px;
+        position: relative;
+        margin: 0 auto;
+
+}
+
+.header h1{
+    /* background-color: #32a9ee96; */
+    position: absolute;
+    left: 870px;
+    top: 100px;
+    margin-bottom: 5px;
+}
+.header p{
+    /* background-color: #f35050a4; */
+    position: absolute;
+    left: 800px;
+    right: 60px;
+    top: 150px;
+}
