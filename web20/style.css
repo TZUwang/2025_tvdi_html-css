@@ -1,0 +1,72 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	background-color: #CCC;
+	font-family: Arial, Helvetica, '微軟正黑體', sans-serif;
+}
+
+h1 {
+	font-size: 60px;
+	text-align: center;
+	margin: 10px;
+}
+
+h2 {
+	font-size: 80px;
+	text-align: center;
+	margin: 10px;
+	font-family: "Mountains of Christmas", serif;
+}
+
+h3 {
+	font-size: 80px;
+	text-align: center;
+	margin: 10px;
+	font-family: "Caesar Dressing", system-ui;
+}
+
+.container {
+	background-color: #FFF;
+	width: 1200px;
+	margin: 20px auto;
+	padding: 20px;
+	display: flex;
+	justify-content: space-around;
+	font-size: 20px;
+}
+
+.box {
+	width: 30%;
+	padding: 20px;
+	box-sizing: border-box;
+	border: #333 3px solid;
+	border-radius: 20px;
+}
+
+/*==============================*/
+.box1 {
+	background-color: #F90;
+}
+
+/*==============================*/
+.box2 {
+	background-color: #9C0;
+}
+
+/*==============================*/
+.box3 {
+	background-color: #09F;
+}
+
+
+
+/*======字型嵌入======*/
+
+
+.material-symbols-outlined {
+	font-size: 80px;
+	color: #51ff00;
+}

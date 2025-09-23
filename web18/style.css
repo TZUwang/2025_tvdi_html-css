@@ -19,11 +19,16 @@ body{
 
 .box{
 	display:flex; /*統一將所有對象拉成與高度最高的內容一樣高 */
-	flex-wrap:wrap
+	flex-wrap:wrap; /*預設是不換行 會硬擠 要換行則使用flex-wrap: wrap*/
+	flex-direction:row; /*row(列)為預設值由左到右由上到下 column(欄)需要強制下高度才會作用 不然會無止盡排下去不換行 */
+	justify-content:space-evenly;/*設定對齊方式，讓左右和中間的間距均分*/
+	align-items:flex-start; /*單排設定對齊方式，靠上對齊不拉伸盒子長度與最長的內容相等*/
+	align-content: center; /*全部打包對其方式 center需要設定高度才會作用(牽扯到垂直需要強制下高度)*/
+	height: 1800px;
 }
 
-.box div{
-	width:calc(100%/3);
+.box div{ /*box底下的所有div*/
+	width: 350px;/*實質上的三等份 width:calc(100%/3)*/
 }
 
 .box .b1{
@@ -37,7 +42,8 @@ body{
 }
 
 .box .b4{
-	background-color:aquamarine
+	background-color:aquamarine;
+	align-self: flex-end; /*對單個箱子設定對齊方式 靠下對齊*/
 }
 
 .box .b5{

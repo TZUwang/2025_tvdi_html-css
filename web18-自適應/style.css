@@ -1,0 +1,63 @@
+*{
+	padding:0;
+	margin:0;}
+	
+body{
+	background-color:#E3E1C6;}
+.container{
+	background-color:#FFF;
+	margin:0 auto;}
+
+.header{
+	border-top:#066 20px solid;
+	border-bottom:#066 20px solid;
+}
+
+.header img{
+	vertical-align:bottom;
+	width: 100%;
+	height: auto;
+}
+
+
+.box{
+	display:flex; /*統一將所有對象拉成與高度最高的內容一樣高 */
+}
+
+.box div{
+}
+
+/*
+flex: flex-grow flex-shrink flex-basis 
+flex-grow 正剩餘空間
+flex-shrink 負剩餘空間
+flex-basis 固定寬度→權限高於width會讓width失效
+*/
+.box .b1{
+	background-color: #ffb3b3;
+	flex: 1 0 200px; /*拿到正剩餘空間(視窗放大時優先給予額外寬度)*/
+}
+.box .b2{
+	background-color: #9fe9ff;
+	flex: 1 0 200px;
+}
+.box .b3{
+	background-color: #f8fa94;
+	flex: 0 0 200px;
+}
+
+.box .b4{
+	background-color:aquamarine;
+	flex: 0 0 200px;
+}
+
+.box .b5{
+	background-color:rgb(150, 148, 248);
+	flex: 0 1 200px; /*拿到負剩餘空間(視窗縮小時優先扣除此寬度)*/
+}
+
+.box .b6{
+	background-color: #ff66de;
+	flex: 0 1 200px; 
+}
+
