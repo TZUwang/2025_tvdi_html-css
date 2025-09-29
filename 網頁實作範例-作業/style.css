@@ -294,7 +294,6 @@ ul {
     background-image: url(./images/photo2.jpg);
 }
 
-/* 資訊卡片 (About Us / Services) */
 .info-card {
     background-color: #ffffff;
 }
@@ -397,19 +396,17 @@ ul {
     font-size: 18px;
     margin-bottom: 10px;
     font-weight: 700;
-    color: #ff6600; /* 橙色 */
+    color: #ff6600;
 }
 
 .cta-item p {
     font-size: 14px;
     line-height: 1.5;
-    color: #666666; /* 輔助文字顏色 */
+    color: #666666;
 }
 
-
-/* 頁腳 (.footer) */
 .footer {
-    background: #333333; /* 深灰 */
+    background: #333333;
     color: #eee;
     padding: 30px 0;
     font-size: 14px;
