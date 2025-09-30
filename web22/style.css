@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+}
+
+.container{
+    background-color: #ffca85b7;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.header{
+    background-image: url(./banner.png);
+    height: 250px;
+    display: flex;
+}
+
+.header h1{
+    padding-left: 280px;
+    padding-top: 70px;
+}
+
+.header ul{
+    display: flex;
+    margin-left: auto;
+    padding-right: 10px;
+    padding-top: 10px;
+}
+
+.header li{
+    list-style: none;
+    margin-right: 20px;
+}
+
+.header li a{
+    display: block;
+    text-decoration: none;
+    color: #4400ff;
+}
+
+.header li a::before{
+    content: "👉";
+    margin-right: 5px;
+}
+
+.header li a:hover{
+    color: #ff0000;
+    text-shadow: #333333b0 3px 3px 3px;
+}
+
+.nav{
+    background-color: rgb(255, 229, 182);
+}
+
+.nav ul{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.nav ul li{
+    list-style: none;
+}
+
+.nav ul li a{
+    display: block;
+    text-decoration: none;
+    color: #6f00ff;
+    border: 3px solid #674cff;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+.nav ul li a::before{
+    font-size: 20px;
+    content: "❄️";
+    margin-right: 2px;
+    vertical-align: ;
+}
+
+.nav ul li a:hover{
+    background-color: #882ffd;
+    color: #e8ff18;
+    box-shadow: #333 3px 3px 3px;
+}
+
+.content{
+    padding: 10px;
+}
+
+.content h3{
+    font-size: 40px;
+    text-align: left;
+    margin: 10px;
+    color: #ffffff;
+    text-shadow: #333333b0 3px 3px 3px;
+}
+
+.content img{
+    float: right;
+    margin:0 8px;
+}
+
+.content .QQ{
+    clear: both;
+}
+
+
+.footer{
+    background-color: #3d3d3d;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer h4{
+    font-size: 20px;
+    padding: 10px 0;
+}
+
+.footer p{
+    padding-top: 30px;
+}

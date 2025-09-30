@@ -18,7 +18,8 @@ h2 {
 	font-size: 80px;
 	text-align: center;
 	margin: 10px;
-	font-family: "Mountains of Christmas", serif;
+	/* font-family: "Mountains of Christmas", serif; */
+	font-family: "1942";
 }
 
 h3 {
@@ -56,17 +57,96 @@ h3 {
 	background-color: #9C0;
 }
 
+.box2 ul li{
+	list-style: none;
+	margin-bottom: 10px;
+}
+
+.box2 li i{
+	font-family: Entypo;
+	font-size: 40px;
+	vertical-align: middle;
+	margin-right: 10px;
+	color: #f1fbff;
+}
 /*==============================*/
 .box3 {
 	background-color: #09F;
 }
+.box3 ul li{
+	list-style: none;
+}
+.box3 ul li a{
+	background-color: #ff5555;
+	text-decoration: none;
+	display: block;
+	color: #fcdede;
+	margin-bottom: 10px;
+	width: 180px;
+	height: 50px;
+	line-height: 50px;
+	text-indent: 30px; /*字體距離左邊邊緣的距離*/
+	border-radius: 25px;
+
+}
+.box3 li a span{
+	font-family: Entypo;
+	font-size: 40px;
+	vertical-align: middle;
+	margin-right: 10px;
+	color: #0044ff;
+}
+
+.box3 li a:hover{
+	background-color: #1f008d;
+	color: #ffbb00;
+	box-shadow: #333 3px 3px 3px;
+}
+
+.box3 li a:hover span {
+	color: #00ff00;
+}
+
 
 
 
 /*======字型嵌入======*/
 
-
-.material-symbols-outlined {
+span.material-symbols-outlined {
 	font-size: 80px;
-	color: #51ff00;
+	color: #ff00d4;
+	vertical-align: middle;
+}
+
+.box1 p::before {
+	content: "hourglass_arrow_down"; /*將要插入的icon名稱放在內容中*/
+	font-family: "Material Symbols Outlined"; /*將要插入的icon的font-family插入(先前網址的family)*/
+	vertical-align: middle;
+	color: #8c00ff;
+	margin-right: 5px;
+}
+
+.box1 p::after {
+	content: "\eeee";/*使用codepoint前面要加\*/
+	font-family: "Material Symbols Outlined";
+	vertical-align: middle;
+	color: #002fff;
+	margin-left: 5px;
+}
+
+/*.box2 a::before {
+	content: "★"; 要加甚麼都可以
+	vertical-align: middle;
+	color: #ff00d4;
+	margin-right: 5px;
+} */
+
+@font-face {
+	font-family: "1942";
+	src: url("./1942.ttf");
+}
+
+@font-face {
+	font-family: "Entypo";
+	src: url("./Entypo-webfont.ttf");
 }
