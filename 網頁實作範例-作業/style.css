@@ -60,7 +60,7 @@ body {
 
 .banner-section {
     background:linear-gradient(to right,rgba(255, 111, 0, 0.9) 50%,rgba(255, 111, 0, 0.4) 100%),
-    url(./images/banner.jpg) no-repeat center center/cover;
+    url(./images/banner.jpg) center;
     height: 480px;
     display: flex;
     align-items: center;
@@ -76,6 +76,7 @@ body {
 .banner-text-box {
     color: #fff;
     padding-right: 50px;
+    text-align: left;
 }
 
 .banner-text-box h1 {
@@ -226,15 +227,15 @@ body {
 }
 
 .img-left {
-    background: url(./images/photo1.jpg) no-repeat center center/cover;
+    background: url(./images/photo1.jpg) center/cover;
 }
 
 .img-right {
-    background: url(./images/photo2.jpg) no-repeat center center/cover;
+    background: url(./images/photo2.jpg) center/cover;
 }
 
 .img-center-bottom {
-    background: url(./images/photo3.jpg) no-repeat center center/cover;
+    background: url(./images/photo3.jpg) center/cover;
 }
 
 .text-center {
@@ -297,7 +298,7 @@ body {
     padding-bottom: 40px;
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center center;
+    background-position: center;
     margin-top: 20px;
 }
 
