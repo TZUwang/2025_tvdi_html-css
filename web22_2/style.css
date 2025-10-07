@@ -1,0 +1,124 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 1200px;
+    margin: 0 auto
+}
+
+.container{
+    background-color: #ffb62e;
+}
+
+.header{
+    background-image: url(./banner.png);
+    height: 250px;
+    position: relative;
+
+}
+.header h1{
+    position: absolute;
+    left: 300px;
+    top: 80px;
+    
+}
+
+.header ul{
+    position: absolute;
+    right: 25px;
+    top: 15px;
+
+}
+.header li{
+    list-style: none;
+    float: left;
+    margin-right: 20px;
+   
+}
+.header li a{
+    color: #3700ff;
+    text-decoration: none;
+    
+}
+.header li a:hover{
+
+}
+
+.navcontent{
+    display: flex; /*方法2:將要水平排列的對象用一個div裝起直接排列 以最高的高度為高 最方便*/
+}
+
+.nav{
+    /*float: left; 方法1:浮動靠左*/
+    width: 200px;
+
+}
+.nav ul{
+
+}
+.nav li{
+    list-style: none;
+    margin-top: 50px;
+    text-align: center;
+    background-color: #e6ffd7;
+
+}
+.nav li a{
+    text-decoration: none;
+}
+.nav li a:hover{}
+
+.content{
+    background-color: rgb(190, 222, 250);
+   /* float: right; 方法1:浮動靠右*/
+    width: 800px
+}
+.content h3{
+
+}
+.content img{
+
+}
+.content p{
+
+}
+
+.content .TT{
+
+}
+
+.nav2{
+    /*float: right; 方法1:浮動靠右*/
+}
+
+
+.nav2 li{
+    list-style: none;
+    margin-top: 50px;
+    text-align: center;
+    background-color: #e6ffd7;
+}
+
+.nav2 li a {
+    display: block;
+    width: 200px;
+    text-decoration: none;
+}
+
+.footer{
+    background-color: dimgray;
+    /* clear: both; 方法1:選單與內容都浮動 頁尾不向上遞補 */
+}
+
+.footer h2{
+
+
+}
+.footer h4{
+
+}
+
+/*方法3: position:absolute定座標 但不知內容的高度footer不好定 不好做不推薦*/

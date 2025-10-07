@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(../../share/bg.gif);
+}
+
+.container{
+    background-color: #fcfa9a;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.header{
+    background-color: #ff9c2a;
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+
+.header h1{
+    padding: 5px 0;
+    
+}
+
+.header ul{
+    display: flex;
+    padding-right: 10px;
+}
+
+.header li{
+    list-style: none;
+}
+
+.header li a{
+    text-decoration: none;
+    margin-right: 20px;
+    color: #005a05;
+}
+
+.header li a:hover{
+    color: #ff0000;
+}
+
+.banner img{
+    vertical-align: middle;
+    /*圖不是背景是插入 會有兩像素基線空隙 要去除 */
+}
+
+.navcontent{
+    display: flex;
+}
+.nav{
+    background-color: #1e5bdf;
+    width: 200px;
+    padding:0 20px;
+}
+
+.nav ul{
+
+}
+
+.nav li{
+    list-style: none;
+}
+
+.nav li:last-of-type a{
+    border-bottom: none;
+}
+
+.nav li a{
+    /* background-color: #ff4040; */
+    display: block;
+    height: 60px;
+    line-height: 60px;
+    text-decoration: none;
+    color: #ffffff;
+    text-align: center;
+    border-bottom: dashed 1px #ffffff;
+    margin-bottom: 10px;
+}
+
+.nav li a::before{
+    content: "♥";
+    margin-right: 5px;
+}
+
+
+.nav li a:hover{
+    color: #ff0000;
+}
+
+.content{
+    width: 1000px;
+    padding:0 20px 20px 20px;
+}
+
+.content h1{
+    background-image: url(../../share/title_bg.png);
+    width: 600px;
+    height: 40px;
+    line-height: 40px;
+    text-indent: 20px;
+    margin: 20px 0;
+}
+
+.content h2{
+    margin: 20px 0;
+    color: #00eeff;
+    background-color: #8f4616;
+    width: 300px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 3px;
+    border-left: 15px solid #44271c;
+    text-indent: 10px;
+    box-shadow: 5px 5px 10px #4d4d4dee;
+}
+
+.footer{
+    background-color: #24201c;
+    text-align: center;
+    padding: 15px 0;
+    color: #ffffff;
+}
