@@ -1,0 +1,33 @@
+.product {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.pbox {
+    background-color: #fff7f7;
+    width: calc(100/3);
+    text-align: center;
+    border: 1px solid #ccc;
+    margin: 20px;
+    padding: 10px;
+    box-sizing: border-box
+}
+
+.pbox img {
+    border: none;
+    border-radius: 0;
+}
+
+a .pbox{
+    transition: all 0.5s;
+}
+a:hover .pbox {
+    background-color: #ff9c2a;
+    box-shadow: #00000065 3px 3px 3px;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
