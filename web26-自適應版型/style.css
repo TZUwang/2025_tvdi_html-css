@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    font-family: Arial, Helvetica, '微軟正黑體', sans-serif;
+    font-size: 20px;
+}
+.header{
+    background-color: #d4d4d4;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+.header h1{}
+.header ul{
+    display: flex;
+}
+.header li{
+    list-style: none;
+    margin: 0 10px;
+}
+.header li a{
+    text-decoration: none;
+    color: #5a5a5a;
+}
+.header li a:hover{
+    color: #d44300;
+    font-weight: bold;
+}
+
+.banner{
+}
+.banner img{
+    vertical-align: bottom;
+    width: 100%;
+    height: auto;
+}
+
+.office{
+    background-color: #d4d4d4;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.office .ofbox{
+    background-color: #afafaf;
+    width: 22%;
+    margin: 1%;
+}
+.office .ofbox img{
+    height: auto;
+    max-width: 100%;
+}
+.office .ofbox p{
+    text-align: center;
+    padding:5px 10px;
+}
+
+.ad{
+    display: flex;
+}
+.adbox{
+    width: 25%;
+}
+.ad img{
+    width: 100%;
+    height: auto;
+    vertical-align: bottom;
+}
+
+.nav{
+    background-color: #d4d4d4;
+    display: flex;
+    justify-content: center;
+}
+.nav .navbox{
+    background-color: #7a7a7a;
+    width: 16%;
+    margin: 1%;
+    text-align: center;
+    padding: 10px;
+}
+.nav .navbox p{
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 10px;
+}
+.nav .navbox ul{
+    list-style: none;
+}
+.nav .navbox li{
+    line-height: 1.8em;
+}
+.nav .navbox li a{
+    text-decoration: none;
+    color: #fff;
+}
+.nav .navbox li a:hover{
+    color: #d44300;
+    font-weight: bold;
+}
+
+.footer{
+    background-color: #1f1f1f;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+    line-height: 1.8em;
+}
+.footer h2{}
+.footer p{}
+
+
+/*==============平板CSS==============*/
+
+@media screen and (max-width: 1200px) and (min-width: 769px){
+    .office {
+        flex-wrap: wrap;
+    }
+    
+    .office .ofbox {
+        width: 44%;
+    }
+
+    .ad {
+        flex-wrap: wrap;
+    }
+    
+    .adbox {
+        width: 50%;
+    }
+
+    .nav {
+        flex-wrap: wrap;
+    }
+    
+    .nav .navbox {
+        width: 32%;
+    }
+
+}
+
+/*==============手機CSS==============*/
+
+@media screen and (max-width: 768px){
+    .office {
+            flex-wrap: wrap;
+        }
+    
+        .office .ofbox {
+            width: 88%;
+        }
+    
+        .ad {
+            flex-wrap: wrap;
+        }
+    
+        .adbox {
+            width: 100%;
+        }
+    
+        .nav {
+            flex-wrap: wrap;
+        }
+    
+        .nav .navbox {
+            width: 64%;
+        }
+
+
+
+}

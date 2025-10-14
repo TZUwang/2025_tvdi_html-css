@@ -1,0 +1,34 @@
+*{
+padding:0;
+margin:0;}
+
+body{
+padding:10px;}
+
+.box {
+    border: 1px solid #000;
+    display: grid;
+    grid-template-columns: 200px minmax(100px, max-content) minmax(100px, 600px);
+} 
+
+/*
+minmax(最小值, 最大值) 
+fit-content(初始寬度)最大只能內容寬 最小能一個字
+fr 等分
+% 百分比
+min-content以一個單詞為寬度
+max-content以最長內容為寬度
+*/
+
+
+.box div{}
+.b1{
+    background: rgba(255, 204, 0,0.6);
+}
+
+.b2{
+    background: rgba(126, 215, 66,0.6);
+}
+.b3 {
+    background: rgba(0, 166, 255,0.6);
+}
