@@ -1,0 +1,9 @@
+body{
+    background-color: #c3d2c0;
+    text-align: center;
+}
+
+img{
+    border-radius: 10px;
+    cursor: pointer;
+}
