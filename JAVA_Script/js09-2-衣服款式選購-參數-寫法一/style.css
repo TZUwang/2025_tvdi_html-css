@@ -1,0 +1,49 @@
+body {
+    background-image: url(./img/bg.jpg);
+    text-align: center;
+}
+
+h1 {
+    font-size: 60px;
+    color: #795f48;
+}
+
+.container {
+    width: 590px;
+    margin: auto;
+    overflow: hidden;
+}
+
+img {
+    border: #FFF 12px solid;
+    float: left;
+    margin: 20px;
+    box-shadow: 0 0 2px 1px #999;
+}
+
+.box {
+    float: left;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.c1,
+.c2 {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border: 3px solid #fff;
+    float: left;
+    margin: 5px;
+    cursor: pointer;
+    box-shadow: 0 0 0 1px #3339;
+    color: transparent;
+}
+
+.c1 {
+    background-color: #dad17d;
+}
+
+.c2 {
+    background-color: #eaabc4;
+}

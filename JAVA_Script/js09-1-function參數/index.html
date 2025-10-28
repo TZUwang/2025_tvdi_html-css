@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h1>函式function</h1>
+    <h2 id="tt">這是一段文字</h2>
+
+    <script>
+        let X = prompt('請輸入文字') //prompt進來的資料為「字串」
+        function A(a) { //函式可以接收參數
+            document.getElementById('tt').innerHTML = a
+        }
+        A(X) //將prompt進來的資料傳給參數
+    </script>
+</body>
+</html>

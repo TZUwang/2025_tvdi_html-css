@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2 id="you"></h2>
+    <script>
+        //計算身高
+        let you = document.getElementById("you"),
+            X = parseInt(prompt("請輸入父親的身高")),
+            Y = parseInt(prompt("請輸入母親的身高"))
+
+        function A(a, b) {
+            let c = (a + b + 13) / 2;
+            // you.innerHTML = `你的身高大概是${c-5}公分到${c+5}公分` 在函式內直接在網頁顯示結果
+            return c //若函式外需要這個函式的結果 則return回傳值
+        }
+        you.innerHTML = A(X, Y) + 100 //讓函式A回傳的值在做運算後顯示在網頁
+    </script>
+</body>
+</html>

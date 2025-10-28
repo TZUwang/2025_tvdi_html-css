@@ -1,0 +1,51 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	text-align: center;
+	margin-top: 30px;
+	background-image: url(./img/bg.jpg);
+	font-size: 1.5em;
+
+}
+h1{
+	margin-bottom: 40px;
+}
+#grandpa{
+	margin: auto;
+	width: 1000px;
+	height: 500px;
+	padding: 30px;
+	border: 1px #555 dashed;
+}
+
+#father{
+	margin:20px auto;
+		width: 800px;
+		height: 400px;
+		padding: 30px;
+		border: 1px #555 dashed;
+
+}
+
+#child {
+	margin:20px auto;
+		width: 600px;
+		height: 300px;
+		padding: 30px;
+		border: 1px #555 dashed;
+}
+
+#bb {
+	margin:20px auto;
+		width: 400px;
+		height: 200px;
+		padding: 30px;
+		border: 1px #555 dashed;
+
+}

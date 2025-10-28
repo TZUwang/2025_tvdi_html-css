@@ -1,0 +1,13 @@
+body {
+    background-image: url(./img/bg.png);
+    text-align: center;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+img {
+    border: 10px #fff solid;
+    box-shadow: 0 0 10px 3px rgba(90, 40, 16, 0.4);
+}
